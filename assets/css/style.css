@@ -1,11 +1,19 @@
+/* Universal */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element */
 body {
     background-color: #d9dcd6;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 header {
@@ -50,6 +58,7 @@ p {
     font-size: 16px;
 }
 
+/* Class */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,14 +78,7 @@ p {
     margin-left: 25px;
 }
 
-/* Main */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/*Service Class */
+/*Services Class */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -105,49 +107,18 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Aside Benefits Class */
+.aside-benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.aside-benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.aside-benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
